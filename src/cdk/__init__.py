@@ -1,4 +1,4 @@
-"""oui."""
+"""None."""
 
 from __future__ import annotations
 
