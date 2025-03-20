@@ -36,7 +36,7 @@ except ImportError:
     from sphinx import apidoc
 
 output_dir = os.path.join(__location__, "api")
-module_dir = os.path.join(__location__, "../../src/thermotest")
+module_dir = os.path.join(__location__, "../../src/CDK-Package")
 try:
     shutil.rmtree(output_dir)
 except FileNotFoundError:
@@ -58,7 +58,7 @@ except Exception as e:
 
 # -- Project information
 
-_metadata = metadata("thermo")
+_metadata = metadata("CDK-Package")
 
 project = _metadata["Name"]
 author = _metadata["Author-email"].split("<", 1)[0].strip()

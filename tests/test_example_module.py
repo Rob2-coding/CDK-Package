@@ -1,4 +1,4 @@
-from thermotest.example_module import hello_smiles
+from CDK-Package.example_module import hello_smiles
 
 
 # Test the function

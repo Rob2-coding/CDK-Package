@@ -3,7 +3,7 @@
 ![Coverage Status](assets/coverage-badge.svg)
 
 <h1 align="center">
-thermo
+CDK-Package
 </h1>
 
 <br>
@@ -29,18 +29,18 @@ Short and sweet, but the real power lies in the detailed documentation.
 Create a new environment, you may also give the environment a different name. 
 
 ```
-conda create -n thermotest python=3.10 
+conda create -n CDK-Package python=3.10 
 ```
 
 ```
-conda activate thermotest
+conda activate CDK-Package
 (conda_env) $ pip install .
 ```
 
 If you need jupyter lab, install it 
 
 ```
-(thermotest) $ pip install jupyterlab
+(CDK-Package) $ pip install jupyterlab
 ```
 
 
@@ -48,7 +48,7 @@ If you need jupyter lab, install it
 
 Initialize Git (only for the first time). 
 
-Note: You should have create an empty repository on `https://github.com:Rob2-coding/thermo`.
+Note: You should have create an empty repository on `https://github.com:Rob2-Coding/CDK-Package`.
 
 ```
 git init
@@ -56,7 +56,7 @@ git add *
 git add .*
 git commit -m "Initial commit" 
 git branch -M main
-git remote add origin git@github.com:Rob2-coding/thermo.git 
+git remote add origin git@github.com:Rob2-Coding/CDK-Package.git 
 git push -u origin main
 ```
 
@@ -65,7 +65,7 @@ Then add and commit changes as usual.
 To install the package, run
 
 ```
-(thermotest) $ pip install -e ".[test,doc]"
+(CDK-Package) $ pip install -e ".[test,doc]"
 ```
 
 ### Run tests and coverage

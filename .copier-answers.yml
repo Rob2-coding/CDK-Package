@@ -3,7 +3,7 @@ _commit: 3179c16
 _src_path: gh:schwallergroup/copier-liac-minimal
 author_email: robin.elkaim@epfl.ch
 author_name: robin
-github_org: Rob2-coding
-package_name: thermotest
-project_name: thermo
+github_org: Rob2-Coding
+package_name: CDK-Package
+project_name: CDK-Package
 short_description: oui
